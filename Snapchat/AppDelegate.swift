@@ -3,10 +3,11 @@
 //  Snapchat
 //
 //  Created by MAC05 on 9/05/19.
-//  Copyright © 2019 GerardoVillegas. All rights reserved.
+//  Copyright © 2019 GerardoVille/Users/mac05/Documents/Proyectos iOS/EntornoXcode/Snapchatgas. All rights reserved.
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
         return true
     }
 
